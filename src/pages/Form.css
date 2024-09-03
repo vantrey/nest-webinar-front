@@ -1,0 +1,32 @@
+/* src/pages/Form.css */
+.form-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin-left: 220px; /* Чтобы избежать наложения на navbar */
+}
+
+.form-container h2 {
+    margin-bottom: 20px;
+}
+
+.form-container input,
+.form-container button {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    width: 300px;
+}
+
+.form-container button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+.form-container button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,27 @@
+.book-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-left: 220px; /* Чтобы избежать наложения на navbar */
+    padding-top: 20px;
+}
+
+.book-list ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.book-list li {
+    margin-bottom: 10px;
+}
+
+.book-list a {
+    text-decoration: none;
+    color: #007bff;
+    font-size: 18px;
+}
+
+.book-list a:hover {
+    color: #0056b3;
+}

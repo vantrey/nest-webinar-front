@@ -1,0 +1,29 @@
+/* src/components/Navbar.css */
+.navbar {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #f8f9fa;
+    padding: 20px;
+    height: 100vh;
+    width: 200px;
+    position: fixed;
+    top: 0;
+    left: 0;
+}
+
+.navbar a,
+.navbar button {
+    margin-bottom: 15px;
+    text-decoration: none;
+    color: #007bff;
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.navbar a:hover,
+.navbar button:hover {
+    color: #0056b3;
+}
