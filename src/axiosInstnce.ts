@@ -8,6 +8,7 @@ export const createAxiosInstance = (baseURL: string) => {
         baseURL: baseURL,
         headers: {
             'Content-Type': 'application/json',
+            'ngrok-skip-browser-warning': 'true',
         },
     });
 
